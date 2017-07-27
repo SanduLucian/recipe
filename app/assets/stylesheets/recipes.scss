@@ -1,0 +1,38 @@
+// Place all the styles related to the Recipes controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+table {
+  font-family: candara;
+  font-style: bold;
+  margin: 25px auto;
+  border-collapse: collapse;
+  border: 1px solid #eee;
+  border-bottom: 2px solid #808080;
+}
+
+tr:hover {
+	background: #f4f4f4;
+}
+
+th {
+  font-family: candara;
+	font-size: large;
+	background: #808080;
+  color: #9ACD32;
+  font-size: 20px;
+  &.last {
+    border-right: none;
+  }
+}
+
+a {
+	text-decoration: none;
+	color: #000080;
+}
+
+th, td {
+  border: 1px solid #eee;
+  border-collapse: collapse;
+}
